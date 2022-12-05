@@ -3,6 +3,8 @@
 
 *This repository is based on BezierLaneNet, we have improved it by applying availability constraint, diversity constraint and discrimination constraint, so users only need to download the code of BezierLaneNet, and then download "hungarian_bezier_loss.py" in this repository to replace it. For different datasets, please modify the values in lines 12 and 13.
 
+*To experiment on CurveLanes, you need to first use convert_curvelanes.py and convert_curvelanes.py under https://github.com/cfzd/Ultra-Fast-Lane-Detection-v2 to generate segmentation and labels. Thanks a lot for their help.
+
 *BezierLaneNet's address is https://github.com/voldemortX/pytorch-auto-drive
 
 ## Performance
