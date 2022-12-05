@@ -1,11 +1,9 @@
 # BezierLaneNet_DHPM
 **Paper:** Dense Hybrid Proposal Modulation for Lane Detection
 
-*This repository is based on BezierLaneNet, we have improved it by applying availability constraint, diversity constraint and discrimination constraint, so users only need to download the code of BezierLaneNet, and then download "utils\losses\hungarian_bezier_loss.py" in this repository to replace it.
+*This repository is based on BezierLaneNet, we have improved it by applying availability constraint, diversity constraint and discrimination constraint, so users only need to download the code of BezierLaneNet, and then download "hungarian_bezier_loss.py" in this repository to replace it.
 
 *BezierLaneNet's address is https://github.com/voldemortX/pytorch-auto-drive
-
-*For the introduction and use of BezierLaneNet, see README_BezierLaneNet.md
 
 ## Getting Started
 
@@ -75,5 +73,17 @@ Get started with [LANEDETECTION.md](docs/LANEDETECTION.md) for lane detection.
   booktitle={ICCVW},
   pages={832--839},
   year={2019}
+}
+@inproceedings{CurveLanes,
+  author    = {Hang Xu and
+               Shaoju Wang and
+               Xinyue Cai and
+               Wei Zhang and
+               Xiaodan Liang and
+               Zhenguo Li},
+  title     = {CurveLane-NAS: Unifying Lane-Sensitive Architecture Search and Adaptive Point Blending},
+  booktitle = {ECCV},
+  pages     = {689--704},
+  year      = {2020}
 }
 ```
