@@ -36,6 +36,12 @@ Get started with [LANEDETECTION.md](docs/LANEDETECTION.md) for lane detection.
 | Ours | resnet18 | 95.15 |
 | Ours | resnet34 | 95.30 |
 
+### CurveLanes performance (best):
+| method | backbone | F1 |
+| :---: | :---: | :---: |
+|BezierLaneNet| resnet | 74.56 |
+| Ours | resnet | 75.03 |
+
 
 ## Citation
 
