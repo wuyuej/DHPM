@@ -5,10 +5,6 @@
 
 *BezierLaneNet's address is https://github.com/voldemortX/pytorch-auto-drive
 
-## Getting Started
-
-Get started with [LANEDETECTION.md](docs/LANEDETECTION.md) for lane detection.
-
 ## Performance
 ### TuSimple performance (best):
 | method | backbone | accuracy | FP | FN |
