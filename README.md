@@ -1,4 +1,4 @@
-# BezierLaneNet_DHPM
+#DHPM
 **Paper:** Dense Hybrid Proposal Modulation for Lane Detection
 
 *This repository is based on BezierLaneNet, we have improved it by applying availability constraint, diversity constraint and discrimination constraint, so users only need to download the code of BezierLaneNet, and then download "hungarian_bezier_loss.py" in this repository to replace it. For different datasets, please modify the values in lines 12 and 13.
